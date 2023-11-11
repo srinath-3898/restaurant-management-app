@@ -1,0 +1,14 @@
+.order {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 1fr;
+  padding: 10px;
+  align-items: center;
+}
+
+.order button {
+  border: none;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+}

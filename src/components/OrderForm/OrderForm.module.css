@@ -1,0 +1,42 @@
+.container {
+  padding: 10px;
+  display: grid;
+  place-items: center;
+  gap: 10px;
+}
+
+.order_form {
+  display: grid;
+  gap: 10px;
+}
+
+.input_controller {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  gap: 20px;
+}
+
+.input_controller input,
+.input_controller select {
+  padding: 5px 10px;
+  border: 1px solid #e7e7e7;
+  border-radius: 5px;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+}
+
+.actions button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #000000;
+  color: white;
+  border-radius: 5px;
+}
+
+.actions button:hover {
+  cursor: pointer;
+}

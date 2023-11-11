@@ -1,0 +1,6 @@
+.container {
+  width: 50%;
+  margin: auto;
+  display: grid;
+  gap: 10px;
+}
